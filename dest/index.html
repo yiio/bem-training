@@ -1,70 +1,56 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <title>BEM</title>
+  <meta charset="UTF-8">
+  <title>Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/main.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="page">
-<div class="page__header header">
-  <div>
-    <img src="img/logo.png" class="header__logo">
+<body>
+<header class="header">
+  <img src="img/logo.png" class="header__logo">
+  <div class="nav">
+    <div class="nav__item nav__item--active">メニュー1</div>
+    <div class="nav__item">メニュー2</div>
+    <div class="nav__item">メニュー3</div>
   </div>
-  <div class="header__menu menu">
-    <div class="menu__item menu__item--active">メニュー1</div>
-    <div class="menu__item">メニュー2</div>
-    <div class="menu__item">メニュー3</div>
-  </div>
-</div>
-<div class="page__main main">
-  <div class="main__section main__section--blue">
+</header>
+<main>
+  <section class="section section--blue">
     <div class="service">
-      <div>
-        <img src="img/service.png" class="service__img">
-      </div>
+      <div><img src="img/service.png" class="service__img"></div>
       <div class="service__text">
         <div class="service__title">サービス1</div>
         <div class="service__info">サービス説明。サービス説明。サービス説明。サービス説明。サービス説明。サービス説明。サービス説明。サービス説明。</div>
-        <div>
-          <button class="service__action-btn">詳細はこちら</button>
-        </div>
+        <div><button class="service__action-btn">詳細はこちら</button></div>
       </div>
     </div>
-  </div>
-  <div class="main__section main__section--green">
+  </section>
+  <section class="section section--green">
     <div class="service">
-      <div>
-        <img src="img/service.png" class="service__img">
-      </div>
+      <div><img src="img/service.png" class="service__img"></div>
       <div class="service__text">
         <div class="service__title">サービス2</div>
         <div class="service__info">サービス説明。サービス説明。サービス説明。サービス説明。サービス説明。サービス説明。サービス説明。サービス説明。</div>
-        <div class="service__detail">
-          <button class="service__action-btn">詳細はこちら</button>
-        </div>
+        <div><button class="service__action-btn">詳細はこちら</button></div>
       </div>
     </div>
-  </div>
-  <div class="main__section main__section--orange">
+  </section>
+  <section class="section section--orange">
     <div class="service">
-      <div>
-        <img src="img/service.png" class="service__img">
-      </div>
+      <div><img src="img/service.png" class="service__img"></div>
       <div class="service__text">
         <div class="service__title">サービス3</div>
         <div class="service__info">サービス説明。サービス説明。サービス説明。サービス説明。サービス説明。サービス説明。サービス説明。サービス説明。</div>
-        <div class="service__detail">
-          <button class="service__action-btn">詳細はこちら</button>
-        </div>
+        <div><button class="service__action-btn">詳細はこちら</button></div>
       </div>
     </div>
-  </div>
-</div>
-<div class="page__footer footer">
+  </section>
+</main>
+<footer class="footer">
   <span class="footer__item">サイトマップ</span>
   <span class="footer__item">運営会社</span>
   <span class="footer__item">お問い合わせ</span>
-</div>
+</footer>
 </body>
 </html>

@@ -1,0 +1,39 @@
+.service {
+  display: flex;
+  padding: 40px 0;
+  margin: 0 auto;
+  width: 660px;
+
+  &__img {
+    width: 300px;
+    height: auto;
+  }
+
+  &__text {
+    width: 300px;
+    margin-left: 32px;
+    color: #fff;
+  }
+
+  &__title {
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  &__info {
+    margin-bottom: 8px;
+    font-size: 0.8rem;
+  }
+
+  &__action-btn {
+    background: #BF0808;
+    color: #fff;
+    font-size: 0.8rem;
+    height: 36px;
+    padding: 0 16px;
+    border: none;
+    outline: none;
+    text-align: center;
+  }
+}
