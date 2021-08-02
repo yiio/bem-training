@@ -1,9 +1,6 @@
-@import "header";
-@import "nav";
-@import "section";
-@import "service";
-@import "footer";
-
-body {
-  margin: 0;
-}
+@use "reset";
+@use "header";
+@use "nav";
+@use "section";
+@use "service";
+@use "footer";
