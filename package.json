@@ -6,9 +6,9 @@
   "author": "yiio <y.iio@goalist.co.jp>",
   "license": "MIT",
   "scripts": {
-    "scss": "node-sass src/scss/ --output dest/css/"
+    "scss": "sass src/scss/styles.scss dest/css/styles.css"
   },
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "sass": "^1.37.0"
   }
 }
